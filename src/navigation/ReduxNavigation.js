@@ -32,7 +32,6 @@ class ReduxNavigation extends Component {
 
   render() {
     const { dispatch, nav } = this.props;
-    console.log('nav', nav);
     return (
       <Navigation
         navigation={{
